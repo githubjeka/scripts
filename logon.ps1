@@ -1,3 +1,5 @@
+cd $PSScriptRoot
+
 if (![System.IO.File]::Exists('Sound_10460.mp3')) {
     Invoke-WebRequest -Uri https://sound-pack.net/download/Sound_10460.mp3 -OutFile Sound_10460.mp3
 }
